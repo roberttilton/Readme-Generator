@@ -3,6 +3,13 @@ const fs = require('fs');
 
 const generateREADME = (answers) =>
   `# ${answers.title}
+  ## Table of Contents
+  [Description](#description)
+  [Installation Instructions](#installationinstructions)
+  [Usage Information](#usageinformation)
+  [License](#license)
+  [Contribution Guidelines](#contributionguidelines)
+  [Test Information](#testinformation)
   ## Description
   ${answers.description}
   ## Installation Instructions
